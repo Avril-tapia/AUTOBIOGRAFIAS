@@ -1,0 +1,51 @@
+/* === ESTILOS GENERALES === */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f8fc; 
+    color: #333;
+    line-height: 1.7;
+}
+
+/* === CONTENEDOR CENTRAL === */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-left: 6px solid #6a5ae0;
+}
+
+/* === TITULOS === */
+h1 {
+    text-align: center;
+    color: #6a5ae0;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: #4a3bb5;
+    margin-top: 30px;
+}
+
+mark {
+    background-color: #e0dcff;
+}
+
+/* === PÁRRAFOS === */
+p {
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+/* === LÍNEA DIVISORA === */
+hr {
+    border: none;
+    height: 2px;
+    background: #6a5ae0;
+    opacity: 0.3;
+    margin-top: 30px;
+}
